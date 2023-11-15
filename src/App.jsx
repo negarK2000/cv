@@ -1,33 +1,48 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Banner from "./Components/Banner"
+import Nav from "./Components/Nav"
+import Education from "./Components/Education"
+import Skills from "./Components/Skills"
+import Projects from "./Components/Projects"
+import Contact from "./Components/Contact"
+import Footer from "./Components/Footer"
+import { useEffect, useState } from "react"
+import { Vortex } from "react-loader-spinner"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000)
+  }, []);
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {
+        loading ? 
+          <div className="bg-slate-900 h-[100vh] flex justify-center items-center">
+            <Vortex
+              visible={true}
+              height="80"
+              width="80"
+              ariaLabel="vortex-loading"
+              wrapperStyle={{}}
+              wrapperClass="vortex-wrapper"
+              colors={['#f43f5e', '#8b5cf6', '#6366f1', '#3b82f6', '#06b6d4', '#10b981']}
+            />
+          </div>
+        :
+          <div className="bg-slate-900">
+            <Nav/>
+            <Banner/>
+            <Education/>
+            <Skills/>
+            <Projects/>
+            <Contact/>
+            <Footer/>
+          </div>
+      }
     </>
   )
 }
