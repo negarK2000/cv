@@ -1,6 +1,7 @@
 import {AiFillGithub} from "react-icons/ai"
 import { FaLinkedin } from "react-icons/fa"
 import { BiLogoGmail } from "react-icons/bi"
+import { SiSkypeforbusiness } from "react-icons/si"
 import img from "../assets/logo-no-background.png"
 
 const Footer = () => {
@@ -23,13 +24,16 @@ const Footer = () => {
         <div className="mb-4 md:mb-0">
           <h2 className="text-3xl text-center font-semibold text-sky-300 py-2 upppercase">Contact & Follow Me</h2>
           <div className="flex justify-center space-x-4">
-            <a href="mailto:n2000karami@gmail.com" className="text-sky-200 hover:text-violet-500 transition-all duration-150 ease-in-out rounded-full p-2" title='n2000karami@gmail.com' onClick={()=> navigator.clipboard.writeText('n2000karami@gmail.com')}>
+            <a href="mailto:n2000karami@gmail.com" className="text-sky-200 hover:text-sky-400 transition-all duration-150 ease-in-out rounded-full p-2" title='n2000karami@gmail.com' onClick={()=> navigator.clipboard.writeText('n2000karami@gmail.com')}>
               <BiLogoGmail className="text-[28px]"/>
             </a>
-            <a href="https://github.com/negarK2000" title="https://github.com/negarK2000" className="text-sky-200 hover:text-violet-500 transition-all duration-150 ease-in-out rounded-full p-2 ">
+            <a href="https://join.skype.com/invite/oLswxYZss8or" title="join.skype.com/invite/oLswxYZss8or" className="text-sky-200 hover:text-sky-400 transition-all duration-150 ease-in-out rounded-full p-2 ">
+              <SiSkypeforbusiness className="text-[28px]"/>
+            </a>
+            <a href="https://github.com/negarK2000" title="github.com/negarK2000" className="text-sky-200 hover:text-sky-400 transition-all duration-150 ease-in-out rounded-full p-2 ">
               <AiFillGithub className="text-[28px]"/>
             </a>
-            <a href="https://www.linkedin.com/in/n2000karami" title="https://github.com/negarK2000" className="text-sky-200 hover:text-violet-500 transition-all duration-150 ease-in-out rounded-full p-2 ">
+            <a href="https://www.linkedin.com/in/n2000karami" title="www.linkedin.com/in/n2000karami" className="text-sky-200 hover:text-sky-400 transition-all duration-150 ease-in-out rounded-full p-2 ">
               <FaLinkedin className="text-[28px]"/>
             </a>
           </div>

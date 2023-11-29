@@ -12,14 +12,14 @@ const Nav = () => {
   const content = <>
     <div className="lg:hidden block absolute top-16 w-full left-0 right bg-violet-600 transition">
       <ul className="text-center text-xl p-20">
-        <Link spy={true} smooth={true} to="Home">
-          <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Home</li>
-        </Link>
         <Link spy={true} smooth={true} to="About">
           <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">About</li>
         </Link>
-        <Link spy={true} smooth={true} to="Services">
-          <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Services</li>
+        <Link spy={true} smooth={true} to="Education">
+          <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Education</li>
+        </Link>
+        <Link spy={true} smooth={true} to="Skills">
+          <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Skills</li>
         </Link>
         <Link spy={true} smooth={true} to="Projects">
           <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Projects</li>

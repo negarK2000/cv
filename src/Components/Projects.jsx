@@ -19,7 +19,7 @@ const Projects = () => {
   }, [])
 
   return (
-    <div id="Projects" className="py-20 px-36">
+    <div id="Projects" className="py-20 lg:px-36 px-5">
       <h1 data-aos="zoom-in-down" className="text-[52px] font-semibold mb-20 leading-normal text-center uppercase text-blue-400">My Selected Projects</h1>
       <Swiper
         spaceBetween={50}

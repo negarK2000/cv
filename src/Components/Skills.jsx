@@ -12,9 +12,9 @@ const Skills = () => {
   }, [])
 
   return (
-    <div data-aos="" id="Skills" className="p-20 flex flex-col items-center justify-center">
+    <div data-aos="" id="Skills" className="lg:p-20 p-5 flex flex-col items-center justify-center">
       <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-20 leading-normal uppercase text-emerald-400">My Technical Skills</h1>
-      <div className="grid lg:grid-cols-5 md-grid-cols-2 grid-cols-1 justify-around gap-14">
+      <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 justify-around gap-14">
         <h2 data-aos="fade-left" className="box_glow text-center text-[26px] flex items-center justify-center font-semibold text-emerald-700 h-28 w-44 rounded-tr-3xl rounded-bl-3xl border-2 border-emerald-700">C</h2>
         <h2 data-aos="fade-left" className="box_glow text-center text-[26px] flex items-center justify-center font-semibold text-emerald-700 rounded-tr-3xl rounded-bl-3xl h-28 w-44 border-2 border-emerald-700">Java</h2>
         <h2 data-aos="fade-left" className="box_glow text-center text-[26px] flex items-center justify-center font-semibold text-emerald-700 rounded-tr-3xl rounded-bl-3xl h-28 w-44 border-2 border-emerald-700">Python</h2>

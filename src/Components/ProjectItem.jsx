@@ -15,9 +15,9 @@ const ProjectItem = ({title, techs, date, github, algs, desc}) => {
         {
             algs.length > 0 &&
             <p className="text-sky-300 lg:text-[18px] text-[12px] mb-1"><span className="text-sky-500 font-semibold">Algorithms & Methods: </span>{
-                algs.map((alg) => {
+                algs.map((alg, index) => {
                     return (
-                        <span className="flex justify-start ms-3">
+                        <span key={index} className="flex justify-start ms-3">
                             <VscDebugBreakpointLogUnverified className="text-[20px] rounded icon_glow me-1 mt-1"/> {alg}
                         </span>
                     )
