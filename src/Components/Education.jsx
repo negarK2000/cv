@@ -24,7 +24,7 @@ const Education = () => {
         <div className="flex mt-8 gap-2">
             <div className="flex items-center justify-center">
                 <div data-aos="fade-up" className="flex space-x-2">
-                  <a href="../assets/CV_Negar_Karami.pdf">
+                  <a class="urllink"  href="/cv/src/assets/CV_Negar_Karami.pdf">
                     <button className="neno-button shadow-xl hover:shadow-rose-800/50 text-white border-2 hover:bg-rose-800 border-rose-800 rounded-lg py-3 px-6 uppercase relative overflow-hidden">Download My CV</button>
                   </a>
                 </div>
