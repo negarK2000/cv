@@ -20,11 +20,11 @@ const Education = () => {
         <h1 data-aos="fade-down" className="text-[52px] font-semibold mb-8 leading-normal text-rose-600 uppercase">My Education</h1>
         <h2  data-aos="fade-left" className="text-rose-700 font-semibold text-[28px]">B.Sc Computer Engineering</h2>
         <h2  data-aos="fade-left" className="text-rose-800 text-[20px] mb-3">Amirkabir University of Technology - Department of Computer Engineering</h2>
-        <p data-aos="fade-left" className="text-rose-200 text-[18px]">I am a Computer Engineer, graduted with a 3.8/4 GPA and honored as one of the top-ranking students at my university. Throughout my educational journey, I delved into a diverse range of courses, acquiring a solid foundation in various specialized areas of computer engineering and computer science. As for advanced courses in my undergraduate studies, I focused more on network and AI. <br /> Additionally, during my studies I served as a teaching assistant for seven different courses. </p>
+        <p data-aos="fade-left" className="text-rose-200 text-[18px]">I am a Computer Engineer, graduated with a 3.8/4 GPA, and was honored as one of the top-ranking students at my university. Throughout my educational journey, I delved into a diverse range of courses, acquiring a solid foundation in various specialized areas of computer engineering and computer science. In my undergraduate studies, I focused more on advanced courses in AI, network, and software. Additionally, I served as a teaching assistant for seven different courses during my studies.</p>
         <div className="flex mt-8 gap-2">
             <div className="flex items-center justify-center">
                 <div data-aos="fade-up" className="flex space-x-2">
-                  <a href="https://drive.google.com/file/d/1_J8B-c63IyoM3zqWBzhh02WZuCy7INDQ/view?usp=sharing">
+                  <a href="/cv/CV_Negar_Karami.pdf">
                     <button className="neno-button shadow-xl hover:shadow-rose-800/50 text-white border-2 hover:bg-rose-800 border-rose-800 rounded-lg py-3 px-6 uppercase relative overflow-hidden">Download My CV</button>
                   </a>
                 </div>

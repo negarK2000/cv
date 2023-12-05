@@ -8,7 +8,7 @@ const my_projects = [
         date: 'Fall 2021',
         github: 'https://github.com/negarK2000/InformationRetrievalSystem#a-search-engine-for-retrieving-articles-from-a-persian-news-website',
         algs: ['Position and Inverted Indexes', 'TF-IDF Weighting Method', 'Cosine Similarity Measure', 'Champion List Technique', 'Word2Vec Skip-Gram Model', 'Mean Reciprocal Rank', 'Mean Average Precision', 'Precision@k', 'Cross-Validation Method', 'K-means Algorithm'],
-        desc: 'This project was developed in three phases to create an information retrieval system (search engine) for a Persian news data set.\nThese phases are as follow:\nPhase 1: Simple Information Retrieval Model\n Phase 2 - Version 1: Enhanced Information Retrieval Model with Advanced Functionalities\n Phase 2 - Version 2: Document Representation Using Word Embedding\n Phase 3: Implementation of Clustering, Categorization, and Retrieval Based on Cluster/Category',
+        desc: 'Implemented a powerful search engine tailored for Persian news, which delivers efficient and accurate search results customized to user queries.This project was developed in three phases to create an information retrieval system (search engine) for a Persian news data set.\nThese phases are as follow:\nPhase 1: Simple Information Retrieval Model\n Phase 2 - Version 1: Enhanced Information Retrieval Model with Advanced Functionalities\n Phase 2 - Version 2: Document Representation Using Word Embedding\n Phase 3: Implementation of Clustering, Categorization, and Retrieval Based on Cluster/Category',
     },
     {
         id: uuid(),
