@@ -54,3 +54,10 @@
 .neno-submit:hover {
     box-shadow: 0 0 15px rgb(55, 48, 163);
 }
+
+.hover-bigger:hover {
+    transition: transform .5s ease-in-out;
+    transition: text-align .6s;
+    transform: scale(1.3);
+    text-align: center;
+}

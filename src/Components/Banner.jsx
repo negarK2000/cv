@@ -39,15 +39,15 @@ const Banner = () => {
       <div id="About" className="lg:py-0 py-10 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-16 items-center">
         <div className="h-full flex flex-col justify-center lg:items-start items-center text-white">
           <h1 data-aos="fade-left" className="text-[32px] text-blue-200 font-semibold mb-2 leading-normal text-blue-500"> Exploring Life's Palette </h1>
-          <p data-aos="fade-right" className="text-blue-200 text-[18px]">When I'm not immersed in programming and research, you'll find me indulging in my hobbies that make my world go 'round.<br/> 
-          <b className="text-blue-400">Film Buff:</b> Whether it's a gripping thriller or a heartwarming classic, I find solace in the world of cinema.<br/>
-          <b className="text-blue-400">Bookworm:</b> Books are my portals to different worlds, as each page holds a key to unlocking new horizons. <br/> 
-          <b className="text-blue-400">Culinary Explorer:</b> I thrive on the excitement of trying new recipes and flavors. The joy of cooking is an art I savor. <br/>
-          <b className="text-blue-400">Language Artisan:</b> How I learned English? It's a tale of books and movies! <br/>
-          <b className="text-blue-400">Wanderlust Dreamer:</b> My dream is to traverse the world, immersing myself in diverse cultures and indulging in their cuisines.<br/>
-          <b className="text-blue-400">Handcraft Aficionado:</b> Whether it's crochet, knitting, or creating art with my hands, I revel in the tactile joy of crafting.<br/>
-          <b className="text-blue-400">Adventurous Spirit:</b> Biking, mountaineering, and the thrill of exploring nature fuel my adventurous side.<br/>
-          <b className="text-blue-400">Ballin' with Buddies:</b> Given the chance, you'll catch me on the court, dribbling and shooting hoops with friends.</p>
+          <p data-aos="fade-right" className="text-blue-200 text-[18px]"><p className="mb-3 text-[20px]"> When I'm not immersed in programming or studying, you'll find me indulging in my hobbies: <br/></p>
+          <p className="hover-bigger mb-1"><b className="text-blue-400">Film Buff:</b> Whether it's a gripping thriller or a heartwarming classic, I find solace in the world of cinema.<br/></p>
+          <p className="hover-bigger mb-1"><b className="text-blue-400">Bookworm:</b> Books are my portals to different worlds, as each page holds a key to unlocking new horizons. <br/></p>
+          <p className="hover-bigger mb-1"><b className="text-blue-400">Culinary Explorer:</b> I thrive on the excitement of trying new recipes and flavors. The joy of cooking is an art I savor. <br/></p>
+          <p className="hover-bigger mb-1"><b className="text-blue-400">Language Artisan:</b> How I learned English? It's a tale of books and movies! <br/></p>
+          <p className="hover-bigger mb-1"><b className="text-blue-400">Wanderlust Dreamer:</b> My dream is to traverse the world, immersing myself in diverse cultures and indulging in their cuisines.<br/></p>
+          <p className="hover-bigger mb-1"><b className="text-blue-400">Handcraft Aficionado:</b> Whether it's crochet, knitting, or creating art with my hands, I revel in the tactile joy of crafting.<br/></p>
+          <p className="hover-bigger mb-1"><b className="text-blue-400">Adventurous Spirit:</b> Biking, mountaineering, and the thrill of exploring nature fuel my adventurous side.<br/></p>
+          <p className="hover-bigger mb-1"><b className="text-blue-400">Ballin' with Buddies:</b> Given the chance, you'll catch me on the court, dribbling and shooting hoops with friends.</p></p>
         </div>
       </div>
     </div>
